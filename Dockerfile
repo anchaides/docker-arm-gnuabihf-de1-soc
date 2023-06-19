@@ -27,7 +27,6 @@ RUN wget http://releases.linaro.org/archive/14.05/components/toolchain/binaries/
 RUN git clone https://github.com/altera-opensource/intel-socfpga-hwlib.git soc-hwlib
 
 from tool-chain as final-setup 
-ENV PATH="/embedded/host_tools/linaro/gcc/arm-linux-gnueabihf/bin/:${PATH}"
 ENV LD_PRELOAD=inode64.so
 ENV LINARO_PATH=/gcc-linaro-arm-linux-gnueabihf-4.9-2014.05_linux
 ENV ARM_COMPILER_PATH=${LINARO_PATH}/bin
