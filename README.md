@@ -58,3 +58,4 @@ clean:
 * [U-BOOT-socfpga](https://github.com/altera-opensource/u-boot-socfpga)
 * [Linaro.org]( http://releases.linaro.org)
 * [DE1 SOC Resources](http://cd-de1-soc.terasic.com)
+* [HPS+FPGA Systems on DE1-Soc Board lecture](http://dejazzer.com/eece4740/lectures/lec07_HPS_FPGA.pdf)
