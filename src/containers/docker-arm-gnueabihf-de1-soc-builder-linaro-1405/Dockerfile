@@ -1,4 +1,4 @@
-# tag as docker-arm-gnuabihf-de1-soc-builder-linaro-1405
+# tag as docker-arm-gnueabihf-de1-soc-builder-linaro-1405
 from ubuntu:12.04 as initial-setup
 COPY --from=anchaides/base /root/.bashrc /root/
 COPY build.sh /

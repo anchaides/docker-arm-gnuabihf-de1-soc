@@ -1,4 +1,4 @@
-# anchaides/arm-gnuabihf-de1-soc-builder-linaro-1405
+# anchaides/arm-gnueabihf-de1-soc-builder-linaro-1405
 
 ## Summary 
 
@@ -8,7 +8,7 @@ Docker container to cross compile ARM Cortex-A9 applications for Altera's (Intel
 
 Build the binary from your source directory as follows: 
 
-    `docker  run -v "$PWD:/source" --rm -it --privileged anchaides/arm-gnuabihf-de1-soc-builder-linaro-1405 make`
+    `docker  run -v "$PWD:/source" --rm -it --privileged anchaides/arm-gnueabihf-de1-soc-builder-linaro-1405 make`
 
 make command expects your source directory to already contain a Makefile in it. These environment variables will be passed: 
 
