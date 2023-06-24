@@ -1,5 +1,4 @@
 # tag as docker-arm-gnuabihf-de1-soc-builder-linaro-1405
-
 from ubuntu:12.04 as initial-setup
 COPY --from=anchaides/base /root/.bashrc /root/
 COPY build.sh /
@@ -38,5 +37,5 @@ ENV HWLIBS_ROOT=/soc-hwlib/armv7a/hwlib/
 
 
 WORKDIR /source
-CMD ["$@"]   
+CMD [/bin/bash -c "$@"]   
 LABEL maintainer="Antonio <vxpwg6n8@anonaddy.me>"
